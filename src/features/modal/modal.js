@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 import cartItems from "../../cartItems";
 const initialState = {
-  isOpen: true,
+  isOpen: false,
 };
 
 const modal = createSlice({
